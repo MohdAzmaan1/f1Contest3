@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+      <!-- Navbar Section -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary" id="first">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Complex UI</a>
@@ -34,11 +35,12 @@
           </div>
         </div>
       </nav>
-
+      
+      <!-- Carousel Section -->
       <div id="carouselExampleCaptions" class="carousel slide" >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./Img 1.jpg" class="d-block w-100" alt="...">
+            <img src="./Img 3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide Title</h5>
               <p>First slide description</p>
@@ -79,37 +81,72 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <section class="custom-section">
-        <div class="flex-container">
-          <div class="flex-item">
-            <img src="./Img 5.jpg" alt="Image">
-            <p>Short Description</p>
-          </div>
-          <div class="flex-item">
-            <img src="./Img 6.jpg" alt="Image">
-            <p>Short Description</p>
-          </div>
-          <div class="flex-item">
-            <img src="./Img 7.jpg" alt="Image">
-            <p>Short Description</p>
-          </div>
-        </div>
-      </section>
 
-      <div class="gallery">
-        <img src="./Img 16.jpg" alt="Photo 1">
-        <img src="./Img 8.jpg" alt="Photo 2">
-        <img src="./Img 9.jpg" alt="Photo 3">
-        <img src="./Img 10.jpg" alt="Photo 4">
-        <img src="./Img 11.jpg" alt="Photo 5">
-        <img src="./Img 12.jpg" alt="Photo 6">
-        <img src="./Img 13.jpg" alt="Photo 7">
-        <img src="./Img 14.jpg" alt="Photo 8">
-        <img src="./Img 15.jpg" alt="Photo 9">
+      <!-- Custom Section -->
+      <div class="flex-container">
+        <div class="flex-item">
+          <img src="./Img 2.jpg" alt="Image">
+          <p>Short Description</p>
+        </div>
+        <div class="flex-item">
+          <img src="./Img 2.jpg" alt="Image">
+          <p>Short Description</p>
+        </div>
+        <div class="flex-item">
+          <img src="./Img 2.jpg" alt="Image">
+          <p>Short Description</p>
+        </div>
       </div>
 
-      <div class="container">
-        <div class="card" style="width: 18rem;">
+      <div class="container my-5">
+        <div class="row g-3 p-2">
+            <div class="col">
+                <img src="./pexels-james-wheeler-1486974.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col">
+                <div class="row mb-4">
+                    <div class="col">
+                        <img src="./pexels-james-wheeler-1486974.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./pexels-james-wheeler-1486974.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col">
+                            <img src="./pexels-james-wheeler-1486974.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./pexels-james-wheeler-1486974.jpg" class="img-fluid" alt="">
+                        </div>
+            </div>
+            </div>
+            <div class="col">           
+                <div class="row mb-4">
+                    <div class="col">
+                        <img src="./pexels-eberhard-grossgasteiger-1287145.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="./pexels-eberhard-grossgasteiger-1287145.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>        
+            </div>
+        </div>
+        <div class="row g-3 p-2">
+            <div class="col-4">
+                <img src="./pexels-james-wheeler-1486974.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-8">
+                <img src="./pexels-eberhard-grossgasteiger-1287145.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+
+      <div class="card-container">
+        <div class="card">
             <img src="./Img 4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card Title</h5>
@@ -117,16 +154,16 @@
                 <a href="#" class="btn btn-primary">Call to Action</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./Img 9.jpg" class="card-img-top" alt="...">
+          <div class="card">
+            <img src="./Img 4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card Title</h5>
                 <p class="card-text">Card description</p>
                 <a href="#" class="btn btn-primary">Call to Action</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./Img 16.jpg" class="card-img-top" alt="...">
+          <div class="card">
+            <img src="./Img 4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card Title</h5>
               <p class="card-text">Card description</p>
@@ -136,7 +173,7 @@
       </div>
 
       <footer class="footer">
-        <div class="container">
+        <div class="footer-container">
             <div>
               <h5>Useful Links</h5>
               <ul class="list-unstyled">
@@ -159,7 +196,7 @@
               <p>Phone: +1(555) 123-4567</p>
             </div>
         </div>
-        <div class="container-2">
+        <div class="inner-container">
             <div>
                 <p>&copy; 2023 Your Company Name. All Rights Reserved.</p>
             </div>
