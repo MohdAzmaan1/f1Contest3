@@ -65,6 +65,8 @@ color: #666;
   .card-container{
     flex-direction: column;
     align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .card, .flex-item{
     margin-bottom: 10%;
@@ -76,11 +78,18 @@ color: #666;
   .inner-container{
     padding-left: 3%;
   }
+  .card{
+    width: 90%;
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 992px){
+@media screen and (min-width: 577px) and (max-width: 992px){
   .flex-container{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
   }
+  .flex-item {
+    flex-basis: 50%;
+    padding: 0 1%;
+    text-align: center;
+    }
 }
